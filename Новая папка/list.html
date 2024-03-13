@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            padding-left: 30px; 
+            position: relative;
+        }
+        li:nth-child(1)::before {
+            content: "";
+            width: 10px; 
+            height: 10px; 
+            background: url('https://cdn-icons-png.flaticon.com/128/3916/3916769.png') center/cover no-repeat; 
+            position: absolute;
+            left: 0;
+            top: 5px;
+        }
+        li:nth-child(2)::before {
+            content: "";
+            width: 10px; 
+            height: 10px; 
+            background: url('https://cdn-icons-png.flaticon.com/128/3916/3916581.png') center/cover no-repeat; 
+            position: absolute;
+            left: 0;
+            top: 5px;
+        }
+        li:nth-child(3)::before {
+            content: "";
+            width: 10px; 
+            height: 10px; 
+            background: url('https://cdn-icons-png.flaticon.com/128/3917/3917527.png') center/cover no-repeat; 
+            position: absolute;
+            left: 0;
+            top: 5px;
+    </style>
+</head>
+<body>
+    <ul>
+        <li>FIRST</li>
+        <li>SECOND</li>
+        <li>THIRD</li>
+    </ul>
+</body>
